@@ -62,7 +62,7 @@
 .feature-progress-circle {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #ef4444;
+  color: #4263eb;
 }
 
 .feature-card-text {
@@ -106,7 +106,7 @@
 }
 
 .highlight {
-  color: #ef4444;
+  color: #4263eb;
 }
 
 .feature-description {
@@ -142,7 +142,7 @@
 }
 
 .feature-icon {
-  color: #ef4444;
+  color: #4263eb;
   width: 20px;
   height: 20px;
   flex-shrink: 0;

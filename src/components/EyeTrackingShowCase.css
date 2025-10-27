@@ -1,0 +1,206 @@
+.eyetrack-showcase {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+  padding: 80px 20px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.eyetrack-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 60px;
+  align-items: center;
+}
+
+.eyetrack-visual-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyetrack-image-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.eyetrack-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+.accuracy-indicator {
+  position: absolute;
+  bottom: -30px;
+  right: -20px;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 200px;
+}
+
+.indicator-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.indicator-icon svg {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+.indicator-stats {
+  flex: 1;
+}
+
+.stats-value {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.stats-bar {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.stats-fill {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #1e40af 0%, #3b82f6 100%);
+  border-radius: 10px;
+}
+
+.eyetrack-info {
+  color: white;
+}
+
+.eyetrack-main-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+.title-highlight {
+  display: block;
+}
+
+.eyetrack-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 25px 0;
+  opacity: 0.95;
+}
+
+.eyetrack-separator {
+  width: 60px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 0 0 30px 0;
+  border-radius: 2px;
+}
+
+.eyetrack-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description-text {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.description-text strong {
+  font-weight: 600;
+}
+
+@media (max-width: 968px) {
+  .eyetrack-layout {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .eyetrack-visual-wrapper {
+    order: 1;
+  }
+
+  .eyetrack-info {
+    order: 2;
+  }
+
+  .eyetrack-main-title {
+    font-size: 36px;
+  }
+
+  .accuracy-indicator {
+    bottom: -20px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media (max-width: 640px) {
+  .eyetrack-showcase {
+    padding: 60px 20px;
+  }
+
+  .eyetrack-main-title {
+    font-size: 28px;
+  }
+
+  .eyetrack-subtitle {
+    font-size: 16px;
+  }
+
+  .description-text {
+    font-size: 15px;
+  }
+
+  .accuracy-indicator {
+    padding: 15px 20px;
+    min-width: 180px;
+    bottom: -15px;
+  }
+
+  .stats-value {
+    font-size: 28px;
+  }
+
+  .indicator-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .indicator-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+}
