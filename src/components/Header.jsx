@@ -18,7 +18,7 @@ function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 text-gray-800 font-medium mx-auto">
+          <nav className="hidden md:flex items-center space-x-8 text-gray-800 font-medium">
             <a
               href="#"
               className="hover:text-[#6d28d9] transition-colors duration-200"

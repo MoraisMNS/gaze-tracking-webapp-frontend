@@ -1,6 +1,6 @@
 import { CheckCircle } from "lucide-react";
 import "./FeatureSection.css";
-import landingImage from "../assets/landing_page_img.jpg";
+import landingImage from "../assets/landing-page-img.png";
 
 function FeatureSection() {
   return (

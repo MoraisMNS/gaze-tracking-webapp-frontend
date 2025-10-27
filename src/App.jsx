@@ -1,3 +1,4 @@
+import Benefits from "./components/Benefits";
 import FeatureSection from "./components/FeatureSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero/>
       <FeatureSection/>
+      <Benefits/>
     </div>
   );
 }
