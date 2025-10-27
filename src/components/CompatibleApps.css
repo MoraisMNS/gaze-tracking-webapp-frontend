@@ -1,11 +1,11 @@
 
-.eyetrack-main-container {
+.apps-main-container {
   min-height: 100vh;
   background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
   padding: 60px 40px;
 }
 
-.eyetrack-content-wrapper {
+.apps-content-wrapper {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -14,11 +14,11 @@
   align-items: center;
 }
 
-.eyetrack-left-section {
+.apps-left-section {
   padding-right: 20px;
 }
 
-.eyetrack-main-title {
+.apps-main-title {
   font-size: 48px;
   font-weight: 700;
   color: #1a2332;
@@ -26,7 +26,7 @@
   line-height: 1.2;
 }
 
-.eyetrack-subtitle {
+.apps-subtitle {
   font-size: 16px;
   color: #6b7280;
   line-height: 1.7;
@@ -36,13 +36,13 @@
 }
 
 
-.eyetrack-feature-cards {
+.apps-feature-cards {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.eyetrack-feature-card {
+.apps-feature-card {
   background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
   border-radius: 16px;
   padding: 24px 28px;
@@ -53,12 +53,12 @@
   cursor: pointer;
 }
 
-.eyetrack-feature-card:hover {
+.apps-feature-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(33, 150, 243, 0.15);
 }
 
-.eyetrack-icon-wrapper {
+.apps-icon-wrapper {
   width: 48px;
   height: 48px;
   background: white;
@@ -70,31 +70,30 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.eyetrack-icon {
+.apps-icon {
   width: 24px;
   height: 24px;
   color: #2196F3;
 }
 
-.eyetrack-feature-content {
+.apps-feature-content {
   flex: 1;
 }
 
-.eyetrack-feature-title {
+.apps-feature-title {
   font-size: 18px;
   font-weight: 600;
   color: #1a2332;
   margin: 0 0 6px 0;
 }
 
-.eyetrack-feature-description {
+.apps-feature-description {
   font-size: 14px;
   color: #6b7280;
   margin: 0;
 }
 
-/* Right Section - Floating Icons */
-.eyetrack-right-section {
+.apps-right-section {
   position: relative;
   height: 600px;
   display: flex;
@@ -102,13 +101,13 @@
   justify-content: center;
 }
 
-.eyetrack-floating-icons {
+.apps-floating-icons {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.eyetrack-icon-circle {
+.apps-icon-circle {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -120,25 +119,24 @@
   animation: eyetrack-float 6s ease-in-out infinite;
 }
 
-.eyetrack-icon-circle svg {
+.apps-icon-circle svg {
   width: 40px;
   height: 40px;
 }
 
-.eyetrack-icon-circle-gray {
+.apps-icon-circle-gray {
   background-color: #d1d5db;
   width: 60px;
   height: 60px;
 }
 
-/* Icon Positions */
-.eyetrack-icon-pos-1 {
+.apps-icon-pos-1 {
   top: 10%;
   left: 35%;
   animation-delay: 0s;
 }
 
-.eyetrack-icon-pos-2 {
+.apps-icon-pos-2 {
   top: 8%;
   left: 5%;
   width: 70px;
@@ -146,49 +144,49 @@
   animation-delay: 1s;
 }
 
-.eyetrack-icon-pos-3 {
+.apps-icon-pos-3 {
   top: 30%;
   left: 20%;
   animation-delay: 2s;
 }
 
-.eyetrack-icon-pos-4 {
+.apps-icon-pos-4 {
   top: 28%;
   left: 60%;
   animation-delay: 0.5s;
 }
 
-.eyetrack-icon-pos-5 {
+.apps-icon-pos-5 {
   top: 52%;
   left: 10%;
   animation-delay: 1.5s;
 }
 
-.eyetrack-icon-pos-6 {
+.apps-icon-pos-6 {
   top: 48%;
   left: 70%;
   animation-delay: 2.5s;
 }
 
-.eyetrack-icon-pos-7 {
+.apps-icon-pos-7 {
   top: 68%;
   left: 55%;
   animation-delay: 3s;
 }
 
-.eyetrack-icon-pos-8 {
+.apps-icon-pos-8 {
   top: 75%;
   left: 25%;
   animation-delay: 0.8s;
 }
 
-.eyetrack-icon-pos-9 {
+.apps-icon-pos-9 {
   top: 5%;
   right: 15%;
   animation-delay: 1.2s;
 }
 
-.eyetrack-icon-pos-10 {
+.apps-icon-pos-10 {
   top: 22%;
   right: 8%;
   width: 50px;
@@ -196,13 +194,13 @@
   animation-delay: 2.2s;
 }
 
-.eyetrack-icon-pos-11 {
+.apps-icon-pos-11 {
   top: 45%;
   right: 5%;
   animation-delay: 1.8s;
 }
 
-.eyetrack-icon-pos-12 {
+.apps-icon-pos-12 {
   bottom: 18%;
   right: 12%;
   width: 70px;
@@ -210,7 +208,7 @@
   animation-delay: 2.8s;
 }
 
-.eyetrack-icon-pos-13 {
+.apps-icon-pos-13 {
   bottom: 8%;
   left: 8%;
   width: 55px;
@@ -233,60 +231,59 @@
   }
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
-  .eyetrack-content-wrapper {
+  .apps-content-wrapper {
     gap: 60px;
   }
   
-  .eyetrack-main-title {
+  .apps-main-title {
     font-size: 40px;
   }
 }
 
 @media (max-width: 968px) {
-  .eyetrack-content-wrapper {
+  .apps-content-wrapper {
     grid-template-columns: 1fr;
     gap: 60px;
   }
   
-  .eyetrack-right-section {
+  .apps-right-section {
     height: 500px;
   }
   
-  .eyetrack-main-title {
+  .apps-main-title {
     font-size: 36px;
   }
 }
 
 @media (max-width: 640px) {
-  .eyetrack-main-container {
+  .apps-main-container {
     padding: 40px 20px;
   }
   
-  .eyetrack-main-title {
+  .apps-main-title {
     font-size: 32px;
   }
   
-  .eyetrack-subtitle {
+  .apps-subtitle {
     font-size: 15px;
   }
   
-  .eyetrack-feature-card {
+  .apps-feature-card {
     padding: 20px;
   }
   
-  .eyetrack-icon-circle {
+  .apps-icon-circle {
     width: 60px;
     height: 60px;
   }
   
-  .eyetrack-icon-circle svg {
+  .apps-icon-circle svg {
     width: 30px;
     height: 30px;
   }
   
-  .eyetrack-right-section {
+  .apps-right-section {
     height: 400px;
   }
 }
