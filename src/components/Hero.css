@@ -1,0 +1,79 @@
+/* ------------------ ORB GLOWS ------------------ */
+.orb-1, .orb-2, .orb-3 {
+  animation: orbFloat 12s ease-in-out infinite alternate;
+}
+
+@keyframes orbFloat {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(-20px) scale(1.05);
+  }
+}
+
+/* ------------------ HERO TITLE ------------------ */
+.hero-title {
+  text-shadow: 0 0 25px rgba(59, 130, 246, 0.25);
+}
+
+/* Gradient Text for Highlight */
+.hero-gradient {
+  background: linear-gradient(90deg, #60a5fa, #22d3ee, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+/* ------------------ GLASS EFFECTS ------------------ */
+.glass-tag {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+  transition: all 0.3s ease;
+}
+
+.glass-tag:hover {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+/* ------------------ BUTTONS ------------------ */
+.primary-btn {
+  background: linear-gradient(to right, #2563eb, #06b6d4);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(59, 130, 246, 0.4);
+  transform: scale(1.05);
+}
+
+/* ------------------ TEXT ------------------ */
+.hero-text {
+  transition: color 0.3s ease;
+}
+
+.hero-text:hover {
+  color: #e0f2fe;
+}

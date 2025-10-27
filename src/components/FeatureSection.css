@@ -1,0 +1,155 @@
+/* ---------------- SECTION LAYOUT ---------------- */
+.feature-section {
+  background-color: #ffffff;
+  color: #111827;
+  padding: 6rem 1.5rem;
+}
+
+.feature-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .feature-container {
+    flex-direction: row;
+    gap: 6rem;
+    padding: 0 3rem;
+  }
+}
+
+/* ---------------- IMAGE SIDE ---------------- */
+.feature-image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .feature-image-wrapper {
+    width: 50%;
+  }
+}
+
+.feature-image {
+  border-radius: 1rem;
+  width: 480px;
+  max-width: 100%;
+  object-fit: cover;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Floating card */
+.feature-floating-card {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  width: 240px;
+  text-align: center;
+}
+
+.feature-progress-circle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ef4444;
+}
+
+.feature-card-text {
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.feature-card-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* ---------------- TEXT SIDE ---------------- */
+.feature-text {
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .feature-text {
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.feature-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+@media (min-width: 1024px) {
+  .feature-title {
+    font-size: 3rem;
+  }
+}
+
+.highlight {
+  color: #ef4444;
+}
+
+.feature-description {
+  color: #4b5563;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  line-height: 1.75;
+}
+
+.feature-divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+/* ---------------- LIST ---------------- */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateX(6px);
+}
+
+.feature-icon {
+  color: #ef4444;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.feature-item span {
+  color: #111827;
+  font-size: 1.1rem;
+}
