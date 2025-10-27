@@ -12,7 +12,7 @@ function Header() {
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-[#3730a3]">
+            <span className="text-2xl font-bold text-[#2563eb]">
               Look Track Vision
             </span>
           </div>

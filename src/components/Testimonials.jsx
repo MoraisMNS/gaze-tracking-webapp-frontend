@@ -1,8 +1,8 @@
 import React from 'react';
 import './Testimonials.css';
 import TestimonialImageN from "../assets/testimonial-1.jpeg";
-import TestimonialImageM from "../assets/testimonial-2.jpg";
-import TestimonialImageH from "../assets/testimonial-3.jpg";
+import TestimonialImageH from "../assets/testimonial-2.jpg";
+import TestimonialImageM from "../assets/testimonial-3.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -11,7 +11,7 @@ const Testimonials = () => {
       quote: "Best HRIS I have used. Easy to use hr software",
       name: "Nirasha Morais",
       position: "",
-      image: {TestimonialImageN},
+      image: TestimonialImageN,
       rating: 4
     },
     {
@@ -19,7 +19,7 @@ const Testimonials = () => {
       quote: "Simplified HR management. Highly recommended",
       name: "Ahamed Minhaj",
       position: "Director, Cerexio Pvt Ltd",
-      image: {TestimonialImageM},
+      image: TestimonialImageM,
       rating: 5
     },
     {
@@ -27,7 +27,7 @@ const Testimonials = () => {
       quote: "Simplicity and efficiency - this is the best HRIS for sure.",
       name: "H.Neethika",
       position: "",
-      image: {TestimonialImageH},
+      image: TestimonialImageH,
       rating: 4
     }
   ];

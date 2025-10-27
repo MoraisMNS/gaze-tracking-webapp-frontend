@@ -2,6 +2,7 @@ import Benefits from "./components/Benefits";
 import CompatibleApps from "./components/CompatibleApps";
 import EyeTrackingShowcase from "./components/EyeTrackingShowCase";
 import FeatureSection from "./components/FeatureSection";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Testimonials from "./components/Testimonials";
@@ -16,6 +17,7 @@ function App() {
       <EyeTrackingShowcase/>
       <CompatibleApps/>
       <Testimonials/>
+      <Footer/>
     </div>
   );
 }
