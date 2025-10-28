@@ -1,0 +1,325 @@
+/* Page Container */
+.gazetrack-page-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero Section */
+.gazetrack-hero-section {
+  background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 50%, #6366f1 100%);
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gazetrack-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.gazetrack-hero-content {
+  max-width: 1200px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.gazetrack-hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 24px;
+  line-height: 1.2;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  animation: gazetrack-fadeInUp 0.8s ease-out;
+}
+
+.gazetrack-hero-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: gazetrack-fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+/* Content Section */
+.gazetrack-content-section {
+  padding: 80px 40px;
+}
+
+.gazetrack-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gazetrack-section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.gazetrack-section-text {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+/* Feature Cards Grid */
+.gazetrack-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.gazetrack-feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.gazetrack-feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(59, 130, 246, 0.15);
+}
+
+.gazetrack-feature-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.gazetrack-feature-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.gazetrack-feature-description {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Benefits Section */
+.gazetrack-benefits-section {
+  margin-bottom: 80px;
+}
+
+.gazetrack-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.gazetrack-benefit-item {
+  position: relative;
+  padding-left: 80px;
+}
+
+.gazetrack-benefit-number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.gazetrack-benefit-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.gazetrack-benefit-text {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.gazetrack-cta-section {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-radius: 24px;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.gazetrack-cta-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.gazetrack-cta-text {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.gazetrack-cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gazetrack-cta-btn {
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gazetrack-cta-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+}
+
+.gazetrack-cta-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.4);
+}
+
+.gazetrack-cta-secondary {
+  background: white;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.gazetrack-cta-secondary:hover {
+  background: #3b82f6;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes gazetrack-fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .gazetrack-hero-title {
+    font-size: 42px;
+  }
+
+  .gazetrack-hero-subtitle {
+    font-size: 18px;
+  }
+
+  .gazetrack-section-title {
+    font-size: 32px;
+  }
+
+  .gazetrack-benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .gazetrack-hero-section {
+    padding: 60px 20px;
+    min-height: 350px;
+  }
+
+  .gazetrack-hero-title {
+    font-size: 36px;
+  }
+
+  .gazetrack-hero-subtitle {
+    font-size: 16px;
+  }
+
+  .gazetrack-content-section {
+    padding: 60px 20px;
+  }
+
+  .gazetrack-section-title {
+    font-size: 28px;
+  }
+
+  .gazetrack-section-text {
+    font-size: 16px;
+  }
+
+  .gazetrack-features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gazetrack-benefit-item {
+    padding-left: 0;
+    padding-top: 80px;
+  }
+
+  .gazetrack-benefit-number {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .gazetrack-benefit-title,
+  .gazetrack-benefit-text {
+    text-align: center;
+  }
+
+  .gazetrack-cta-section {
+    padding: 40px 20px;
+  }
+
+  .gazetrack-cta-title {
+    font-size: 28px;
+  }
+
+  .gazetrack-cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .gazetrack-cta-btn {
+    width: 100%;
+  }
+}

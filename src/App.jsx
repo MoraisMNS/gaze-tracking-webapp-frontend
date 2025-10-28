@@ -7,11 +7,13 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MobileAppSection from "./components/MobileAppSection";
 import Testimonials from "./components/Testimonials";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-function App() {
+import GazeTracking from "./pages/GazeTracking";
+
+function Home() {
   return (
-    <div className="bg-gray-50 min-h-screen">
-      <Header />
+    <>
       <Hero/>
       <FeatureSection/>
       <Benefits/>
@@ -19,8 +21,22 @@ function App() {
       <CompatibleApps/>
       <Testimonials/>
       <MobileAppSection/>
-      <Footer/>
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="bg-gray-50 min-h-screen">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gaze-tracking" element={<GazeTracking />} />
+        </Routes>
+        <Footer/>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import "./Header.css"; 
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -100,12 +101,12 @@ function Header() {
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Eye Tracking</h3>
                 </div>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/gaze-tracking"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Gaze Tracking
-                </a>
+                 Gaze Tracking
+                </Link>
                 <a
                   href="#"
                   className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
