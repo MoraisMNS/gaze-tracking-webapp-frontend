@@ -113,12 +113,6 @@ function Header() {
                 >
                 Attention Analysis
                 </Link>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
-                >
-                  Heatmap Generation
-                </a>
               </div>
 
               {/* Column 2 */}
@@ -132,18 +126,6 @@ function Header() {
                 >
                 Real Time Insights
                 </Link>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
-                >
-                  Behavior Patterns
-                </a>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
-                >
-                  Performance Reports
-                </a>
               </div>
 
               {/* Column 3 */}
@@ -151,18 +133,12 @@ function Header() {
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Integration</h3>
                 </div>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/application-control"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  API Access
-                </a>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
-                >
-                  Mobile SDK
-                </a>
+                Computer Application Control
+                </Link>
                 <Link
                 to="/voice-integration"
                 className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"

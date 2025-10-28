@@ -14,6 +14,7 @@ import AttentionAnalysis from "./pages/AttentionAnalysis";
 import RealTimeInsights from "./pages/RealTimeInsights";
 import VoiceIntegration from "./pages/VoiceIntegration";
 import CaseStudies from "./pages/CaseStudies";
+import ComputerApplication from "./pages/ComputerApplication";
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/realtime-insights" element={<RealTimeInsights />} />
           <Route path="/voice-integration" element={<VoiceIntegration />} />
           <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/application-control" element={<ComputerApplication />} />
         </Routes>
         <Footer/>
       </div>
