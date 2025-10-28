@@ -16,7 +16,7 @@ const Benefits = () => {
             <div className="benefit-details">
               <h3>Simple</h3>
               <p>
-                Upgrade your digital HR experience with our easy-to-use automation tools that manage your data while ensuring increased efficiency, facilitating the seamless execution of digital HR efforts.
+               Navigate and control applications easily using natural eye movements with a simple, accessible gaze-controlled interface.
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Benefits = () => {
             <div className="benefit-details">
               <h3>Fast</h3>
               <p>
-                Save time, accelerate your hiring process, and find the ideal talent with RomeoHR's fast screening services—getting checks done in hours, not days.
+                Achieve real-time responsiveness with deep learning–powered gaze detection. Our optimized CNN and landmark-based hybrid model ensures rapid interpretation of eye movements, enabling instant control over applications such as media players, presentations, and communication platforms
               </p>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Benefits = () => {
             <div className="benefit-details">
               <h3>Accurate</h3>
               <p>
-                Utilize data and evidence-supported Evidence-Based Practice (EBP) to ensure, through your system, that the information entered by employees is accurate, error-free, and exact.
+               Delivers precise gaze and blink tracking under varying conditions, with personalized calibration ensuring consistent accuracy.
               </p>
             </div>
           </div>

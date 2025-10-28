@@ -8,28 +8,28 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "Best HRIS I have used. Easy to use hr software",
-      name: "Nirasha Morais",
-      position: "",
+      quote: "An impressive innovation in accessibility! The gaze-controlled interface works flawlessly even under different lighting conditions. It’s fast, precise, and surprisingly natural to use.",
+      name: "Shiney Delia",
+      position: "UI/UX Enthusiast",
       image: TestimonialImageN,
       rating: 4
     },
     {
       id: 2,
-      quote: "Simplified HR management. Highly recommended",
-      name: "Ahamed Minhaj",
-      position: "Director, Cerexio Pvt Ltd",
+      quote: "The real-time accuracy of gaze tracking is outstanding. The integration of blink detection and voice control makes the system incredibly intuitive for daily use.",
+      name: "Harsha Kevin",
+      position: "Research Assistant, University of Ruhuna",
       image: TestimonialImageM,
       rating: 5
     },
     {
       id: 3,
-      quote: "Simplicity and efficiency - this is the best HRIS for sure.",
-      name: "H.Neethika",
-      position: "",
+      quote: "It’s amazing how smooth the interface feels. The calibration process is simple, and the application responds instantly to eye movements",
+      name: "Nelum Kariyawasam",
+      position: "Project Developer",
       image: TestimonialImageH,
       rating: 4
-    }
+    },
   ];
 
   const renderStars = (rating) => {

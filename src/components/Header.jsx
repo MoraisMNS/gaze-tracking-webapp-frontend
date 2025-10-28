@@ -72,7 +72,7 @@ function Header() {
               Log In
             </button>
             <button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105">
-              Get a Demo
+              Download Software
             </button>
           </div>
 
@@ -292,7 +292,7 @@ function Header() {
                 Log In
               </button>
               <button className="bg-gradient-to-r from-[#7e22ce] to-[#9333ea] text-white px-5 py-2 rounded-lg hover:opacity-90">
-                Get a Demo
+                Download Software
               </button>
             </nav>
           </div>

@@ -37,7 +37,7 @@ function Hero() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <button className="primary-btn">
-              Get a Demo
+              Download Software
             </button>
             <button className="secondary-btn">
               Learn More
