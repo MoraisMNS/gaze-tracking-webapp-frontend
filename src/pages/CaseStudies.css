@@ -1,0 +1,138 @@
+.case-page-container {
+  width: 100%;
+  background: #f8fafc;
+  padding-bottom: 80px;
+}
+
+/* ---------- HERO ---------- */
+.case-hero-section {
+  background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 50%, #6366f1 100%);
+  color: white;
+  text-align: center;
+  padding: 100px 40px 80px;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 4px 30px rgba(59, 130, 246, 0.3);
+}
+
+.case-hero-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.case-hero-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ---------- GRID ---------- */
+.case-grid-section {
+  padding: 80px 40px;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.case-card {
+  background: white;
+  border-radius: 18px;
+  padding: 40px 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+}
+
+.case-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.15);
+}
+
+.case-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.case-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 6px;
+}
+
+.case-source {
+  font-size: 14px;
+  color: #3b82f6;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.case-description {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.case-result {
+  color: #10b981;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* ---------- SUMMARY ---------- */
+.case-summary-section {
+  text-align: center;
+  background: #eef6ff;
+  padding: 60px 20px;
+  margin-top: 60px;
+  border-top: 2px solid #dbeafe;
+}
+
+.case-summary-section h2 {
+  font-size: 34px;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.case-summary-section ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.case-summary-section li {
+  background: white;
+  margin: 10px 0;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  color: #4b5563;
+  font-size: 16px;
+  border-left: 5px solid #3b82f6;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .case-hero-title {
+    font-size: 36px;
+  }
+
+  .case-hero-subtitle {
+    font-size: 16px;
+  }
+
+  .case-summary-section ul {
+    text-align: center;
+  }
+}

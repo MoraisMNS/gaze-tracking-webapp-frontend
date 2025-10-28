@@ -163,12 +163,12 @@ function Header() {
                 >
                   Mobile SDK
                 </a>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/voice-integration"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Third-Party Tools
-                </a>
+                Voice Integration
+                </Link>
               </div>
             </div>
           </div>
@@ -214,12 +214,12 @@ function Header() {
                 >
                   Why Look Track Vision
                 </a>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/case-studies"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Case Studies
-                </a>
+                Case Studies
+                </Link>
                 <a
                   href="#"
                   className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
