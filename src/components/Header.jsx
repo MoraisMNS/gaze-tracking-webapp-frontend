@@ -13,9 +13,9 @@ function Header() {
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-[#2563eb]">
-              Look Track Vision
-            </span>
+            <Link to="/" className="text-2xl font-bold text-[#2563eb] hover:opacity-80 transition-opacity duration-200">
+             Look Track Vision
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -126,12 +126,12 @@ function Header() {
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Analytics</h3>
                 </div>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/realtime-insights"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Real-Time Insights
-                </a>
+                Real Time Insights
+                </Link>
                 <a
                   href="#"
                   className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"

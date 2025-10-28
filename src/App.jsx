@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import GazeTracking from "./pages/GazeTracking";
 import AttentionAnalysis from "./pages/AttentionAnalysis";
+import RealTimeInsights from "./pages/RealTimeInsights";
 
 function Home() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/gaze-tracking" element={<GazeTracking />} />
           <Route path="/attention-analysis" element={<AttentionAnalysis />} />
+          <Route path="/realtime-insights" element={<RealTimeInsights />} />
         </Routes>
         <Footer/>
       </div>
