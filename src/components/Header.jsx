@@ -178,7 +178,6 @@ function Header() {
                   Team
                 </a>
               </div>
-
               {/* Column 2 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
@@ -203,7 +202,6 @@ function Header() {
                   Testimonials
                 </a>
               </div>
-
               {/* Column 3 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
@@ -228,7 +226,6 @@ function Header() {
                   Tutorials
                 </a>
               </div>
-
               {/* Column 4 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
