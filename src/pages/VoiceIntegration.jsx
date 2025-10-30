@@ -73,7 +73,7 @@ const VoiceIntegration = () => {
 
       {/* CTA */}
       <section className="voice-cta-section">
-        <h2 className="voice-cta-title">Try the Voice Control Demo</h2>
+        <h2 className="voice-cta-title">Try Our Application</h2>
         <p className="voice-cta-text">
           Speak, see, and control. Explore how real-time voice recognition reshapes human–computer interaction.
         </p>

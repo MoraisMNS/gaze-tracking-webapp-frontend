@@ -107,11 +107,17 @@ function Header() {
                 >
                  Gaze Tracking
                 </Link>
-                <Link
+               {/*<Link
                 to="/attention-analysis"
                 className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
                 Attention Analysis
+                </Link>*/} 
+                <Link
+                to="/blink-detection"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                >
+                Blink Detection
                 </Link>
               </div>
 

@@ -4,108 +4,138 @@ import './GazeTracking.css';
 const GazeTracking = () => {
   return (
     <div className="gazetrack-page-container">
+      {/* HERO SECTION */}
       <section className="gazetrack-hero-section">
         <div className="gazetrack-hero-content">
           <h1 className="gazetrack-hero-title">
-            Gaze Tracking Technology
+            Intelligent Gaze Tracking System
           </h1>
           <p className="gazetrack-hero-subtitle">
-            Boost Effective Decision-Making through Advanced Eye Movement Analysis and Real-Time Gaze Detection.
+            Experience hands-free computer interaction through advanced eye and gaze detection.
+            Our system integrates deep learning, blink recognition, and voice control for complete accessibility.
           </p>
         </div>
       </section>
 
+      {/* CONTENT SECTION */}
       <section className="gazetrack-content-section">
         <div className="gazetrack-content-wrapper">
           <h2 className="gazetrack-section-title">What is Gaze Tracking?</h2>
           <p className="gazetrack-section-text">
-            Gaze tracking is an advanced technology that monitors and analyzes where a person is looking 
-            in real-time. Our system uses state-of-the-art algorithms to provide precise eye movement 
-            data, enabling better understanding of user attention and interaction patterns.
+            Gaze tracking monitors where a user is looking and interprets eye movements as input commands.
+            Our system uses CNN-based gaze direction detection, blink recognition, and calibration offsets
+            to allow seamless, real-time computer control without physical input devices.
           </p>
 
+          {/* FEATURE GRID */}
           <div className="gazetrack-features-grid">
             <div className="gazetrack-feature-card">
               <div className="gazetrack-feature-icon">👁️</div>
-              <h3 className="gazetrack-feature-title">Real-Time Tracking</h3>
+              <h3 className="gazetrack-feature-title">Gaze Direction Detection</h3>
               <p className="gazetrack-feature-description">
-                Monitor eye movements in real-time with sub-degree accuracy for immediate insights.
+                Detects real-time gaze directions—left, right, up, down, and center—using CNN and MediaPipe facial landmarks.
               </p>
             </div>
 
             <div className="gazetrack-feature-card">
-              <div className="gazetrack-feature-icon">📊</div>
-              <h3 className="gazetrack-feature-title">Data Analytics</h3>
+              <div className="gazetrack-feature-icon">✨</div>
+              <h3 className="gazetrack-feature-title">Blink Detection</h3>
               <p className="gazetrack-feature-description">
-                Comprehensive analytics dashboard showing gaze patterns, fixation points, and more.
+                Identifies intentional blinks via Eye Aspect Ratio (EAR) to trigger selection or confirmation actions.
               </p>
             </div>
 
             <div className="gazetrack-feature-card">
               <div className="gazetrack-feature-icon">🎯</div>
-              <h3 className="gazetrack-feature-title">Precision Calibration</h3>
+              <h3 className="gazetrack-feature-title">Calibration System</h3>
               <p className="gazetrack-feature-description">
-                Advanced calibration system ensures accurate tracking across different users and environments.
+                Personalized calibration captures iris offsets and thresholds to improve tracking precision for each user.
               </p>
             </div>
 
             <div className="gazetrack-feature-card">
-              <div className="gazetrack-feature-icon">🔄</div>
-              <h3 className="gazetrack-feature-title">Seamless Integration</h3>
+              <div className="gazetrack-feature-icon">🧠</div>
+              <h3 className="gazetrack-feature-title">Hybrid Prediction</h3>
               <p className="gazetrack-feature-description">
-                Easy integration with existing systems through our comprehensive API and SDK.
+                Combines CNN predictions with iris landmark offsets for enhanced accuracy and robust gaze classification.
+              </p>
+            </div>
+
+            <div className="gazetrack-feature-card">
+              <div className="gazetrack-feature-icon">🔥</div>
+              <h3 className="gazetrack-feature-title">Attention Heatmap</h3>
+              <p className="gazetrack-feature-description">
+                Visualizes focus intensity across screen regions, indicating user attention patterns in real-time.
+              </p>
+            </div>
+
+            <div className="gazetrack-feature-card">
+              <div className="gazetrack-feature-icon">🗣️</div>
+              <h3 className="gazetrack-feature-title">Voice Integration</h3>
+              <p className="gazetrack-feature-description">
+                Integrates OpenAI Whisper for speech-to-text commands, enabling voice-based control of applications.
+              </p>
+            </div>
+
+            <div className="gazetrack-feature-card">
+              <div className="gazetrack-feature-icon">💻</div>
+              <h3 className="gazetrack-feature-title">Application Control</h3>
+              <p className="gazetrack-feature-description">
+                Supports control over applications like PowerPoint, Zoom, and Media Player using gaze and blink actions.
               </p>
             </div>
           </div>
 
+          {/* BENEFITS SECTION */}
           <div className="gazetrack-benefits-section">
-            <h2 className="gazetrack-section-title">Key Benefits</h2>
+            <h2 className="gazetrack-section-title">Why It Matters</h2>
             <div className="gazetrack-benefits-grid">
               <div className="gazetrack-benefit-item">
                 <div className="gazetrack-benefit-number">01</div>
-                <h4 className="gazetrack-benefit-title">Enhanced User Understanding</h4>
+                <h4 className="gazetrack-benefit-title">Accessibility for All</h4>
                 <p className="gazetrack-benefit-text">
-                  Gain deep insights into user behavior and attention patterns.
+                  Empowers users with physical disabilities to operate computers independently through gaze and voice.
                 </p>
               </div>
 
               <div className="gazetrack-benefit-item">
                 <div className="gazetrack-benefit-number">02</div>
-                <h4 className="gazetrack-benefit-title">Improved Accessibility</h4>
+                <h4 className="gazetrack-benefit-title">Seamless Integration</h4>
                 <p className="gazetrack-benefit-text">
-                  Enable hands-free interaction for users with mobility challenges.
+                  Works with common desktop applications to provide a unified, intelligent interaction experience.
                 </p>
               </div>
 
               <div className="gazetrack-benefit-item">
                 <div className="gazetrack-benefit-number">03</div>
-                <h4 className="gazetrack-benefit-title">Research Applications</h4>
+                <h4 className="gazetrack-benefit-title">High Accuracy</h4>
                 <p className="gazetrack-benefit-text">
-                  Perfect for UX research, marketing studies, and behavioral analysis.
+                  Uses deep learning and real-time calibration to achieve precise gaze and blink detection accuracy.
                 </p>
               </div>
 
               <div className="gazetrack-benefit-item">
                 <div className="gazetrack-benefit-number">04</div>
-                <h4 className="gazetrack-benefit-title">High Performance</h4>
+                <h4 className="gazetrack-benefit-title">Enhanced User Research</h4>
                 <p className="gazetrack-benefit-text">
-                  Fast processing with minimal latency for smooth user experience.
+                  Attention heatmaps and gaze analytics support UX evaluation and behavioral research studies.
                 </p>
               </div>
             </div>
           </div>
 
+          {/* CTA SECTION */}
           <div className="gazetrack-cta-section">
-            <h2 className="gazetrack-cta-title">Ready to Get Started?</h2>
+            <h2 className="gazetrack-cta-title">Experience Look Track Vision</h2>
             <p className="gazetrack-cta-text">
-              Experience the power of advanced gaze tracking technology today.
+              Explore how gaze, blink, and voice can redefine human–computer interaction.
             </p>
             <div className="gazetrack-cta-buttons">
               <button className="gazetrack-cta-btn gazetrack-cta-primary">
-                Download Software
+                Download Desktop App
               </button>
               <button className="gazetrack-cta-btn gazetrack-cta-secondary">
-                Request Demo
+                Watch Demo
               </button>
             </div>
           </div>
