@@ -249,12 +249,12 @@ function Header() {
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Contact</h3>
                 </div>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/contact-us"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Get in Touch
-                </a>
+                Contact Us
+                </Link>
               </div>
             </div>
           </div>

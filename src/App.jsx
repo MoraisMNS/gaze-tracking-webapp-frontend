@@ -20,6 +20,7 @@ import CalibrationSystem from "./pages/CalibrationSystem";
 import HybridPrediction from "./pages/HybridPrediction";
 import Documentation from "./pages/Documentation";
 import Team from "./pages/Team";
+import { Contact } from "lucide-react";
 
 function Home() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/hybrid-prediction" element={<HybridPrediction />} />
           <Route path="/documentation" element={<Documentation />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/contact-us" element={<Contact/>} />
           <Route path="/realtime-insights" element={<RealTimeInsights />} />
           <Route path="/voice-integration" element={<VoiceIntegration />} />
           <Route path="/case-studies" element={<CaseStudies />} />

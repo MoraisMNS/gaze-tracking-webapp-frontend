@@ -1,0 +1,237 @@
+.contact-page-container {
+  width: 100%;
+  background: #f9fafb;
+  overflow: hidden;
+}
+
+/* HERO SECTION */
+.contact-hero-section {
+  background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 50%, #6366f1 100%);
+  padding: 100px 40px;
+  text-align: center;
+  color: white;
+}
+
+.contact-hero-title {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-hero-subtitle {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+}
+
+/* CONTACT INFO SECTION */
+.contact-info-section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.contact-section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.contact-section-text {
+  font-size: 18px;
+  color: #6b7280;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  line-height: 1.8;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(59, 130, 246, 0.15);
+}
+
+.contact-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #3b82f6;
+}
+
+.contact-card h3 {
+  font-size: 20px;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+/* TEAM SECTION */
+.contact-team-section {
+  padding: 100px 40px;
+  background: #f0f9ff;
+  text-align: center;
+}
+
+.contact-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto 0;
+}
+
+.team-member {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(59, 130, 246, 0.2);
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 6px;
+}
+
+.team-role {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* FORM SECTION */
+.contact-form-section {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.contact-submit-btn {
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
+/* CTA SECTION */
+.contact-cta-section {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 80%);
+  color: white;
+  text-align: center;
+  padding: 100px 40px;
+}
+
+.contact-cta-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-cta-text {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.contact-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-cta-btn {
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-cta-primary {
+  background: white;
+  color: #3b82f6;
+}
+
+.contact-cta-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.contact-cta-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-hero-title {
+    font-size: 42px;
+  }
+
+  .contact-section-title {
+    font-size: 32px;
+  }
+
+  input, textarea {
+    font-size: 15px;
+  }
+}
