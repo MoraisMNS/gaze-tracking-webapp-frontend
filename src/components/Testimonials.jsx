@@ -47,7 +47,7 @@ const Testimonials = () => {
     <div className="testimonials-main-container">
       <div className="testimonials-content-wrapper">
         <h2 className="testimonials-main-title">
-          Discover what customers have said about our application.
+          Discover what users have said about our application.
         </h2>
 
         <div className="testimonials-cards-grid">

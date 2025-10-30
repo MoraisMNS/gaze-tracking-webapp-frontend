@@ -12,11 +12,11 @@ const Footer = () => {
               <span className="footer-logo-text">Look Track Vision</span>
             </div>
             <p className="footer-description">
-              Empower your workforce and simplify HR with RomeoHR, Australia's AI-native HR and Payroll 
-              software built for growing SMBs. Our platform helps you manage recruitment, onboarding, 
-              time tracking, compliance, payroll, and more - all from one place. Whether you're managing 
-              a single site or a multi-location team, RomeoHR ensures your operations stay efficient, 
-              compliant, and scalable.
+             The Look Track Vision web application demonstrates a real-time eye-tracking and human–computer interaction system that allows 
+             users to control computer applications through gaze direction, blinking, and voice commands.
+            It connects the deep-learning gaze detection model and computer-vision modules described in the desktop version into a clean, interactive web interface. 
+            Users can experience how the system tracks eye movements, calibrates gaze positions, and translates them into digital actions—offering a hands-free, 
+            accessible control solution for everyone, including individuals with limited mobility.
             </p>
           </div>
 
