@@ -125,6 +125,12 @@ function Header() {
                 >
                 Calibration System
                 </Link>
+                <Link
+                to="/hybrid-prediction"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                >
+                Hybrid Prediction System
+                </Link>
               </div>
 
               {/* Column 2 */}
@@ -225,12 +231,12 @@ function Header() {
                 >
                   FAQs
                 </a>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/documentation"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Documentation
-                </a>
+                Documentation
+                </Link>
                 <a
                   href="#"
                   className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"

@@ -17,6 +17,8 @@ import CaseStudies from "./pages/CaseStudies";
 import ComputerApplication from "./pages/ComputerApplication";
 import BlinkDetection from "./pages/BlinkDetection";
 import CalibrationSystem from "./pages/CalibrationSystem";
+import HybridPrediction from "./pages/HybridPrediction";
+import Documentation from "./pages/Documentation";
 
 function Home() {
   return (
@@ -43,6 +45,8 @@ function App() {
           {/*<Route path="/attention-analysis" element={<AttentionAnalysis />} />*/}
           <Route path="/blink-detection" element={<BlinkDetection />} />
           <Route path="/calibration-system" element={<CalibrationSystem />} />
+          <Route path="/hybrid-prediction" element={<HybridPrediction />} />
+           <Route path="/documentation" element={<Documentation />} />
           <Route path="/realtime-insights" element={<RealTimeInsights />} />
           <Route path="/voice-integration" element={<VoiceIntegration />} />
           <Route path="/case-studies" element={<CaseStudies />} />
