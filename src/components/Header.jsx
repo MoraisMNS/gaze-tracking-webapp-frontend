@@ -189,12 +189,12 @@ function Header() {
                 >
                   Our Story
                 </a>
-                <a
-                  href="#"
-                  className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                <Link
+                to="/team"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
-                  Team
-                </a>
+                Team
+                </Link>
               </div>
               {/* Column 2 */}
               <div className="mega-menu-column">

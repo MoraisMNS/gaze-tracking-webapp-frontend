@@ -19,6 +19,7 @@ import BlinkDetection from "./pages/BlinkDetection";
 import CalibrationSystem from "./pages/CalibrationSystem";
 import HybridPrediction from "./pages/HybridPrediction";
 import Documentation from "./pages/Documentation";
+import Team from "./pages/Team";
 
 function Home() {
   return (
@@ -46,7 +47,8 @@ function App() {
           <Route path="/blink-detection" element={<BlinkDetection />} />
           <Route path="/calibration-system" element={<CalibrationSystem />} />
           <Route path="/hybrid-prediction" element={<HybridPrediction />} />
-           <Route path="/documentation" element={<Documentation />} />
+          <Route path="/documentation" element={<Documentation />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/realtime-insights" element={<RealTimeInsights />} />
           <Route path="/voice-integration" element={<VoiceIntegration />} />
           <Route path="/case-studies" element={<CaseStudies />} />

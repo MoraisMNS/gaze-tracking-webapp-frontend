@@ -1,0 +1,436 @@
+/* Page Container */
+.team-page-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero Section */
+.team-hero-section {
+  background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 50%, #6366f1 100%);
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.team-hero-title {
+  font-size: 54px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.team-hero-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content Section */
+.team-content-section {
+  padding: 80px 40px;
+}
+
+.team-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.team-section-text {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Project Overview */
+.team-project-overview {
+  margin-bottom: 80px;
+}
+
+/* Team Members Section */
+.team-members-section {
+  margin-bottom: 100px;
+}
+
+.team-members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.team-member-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.team-member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 32px rgba(59, 130, 246, 0.2);
+}
+
+.team-member-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+}
+
+.team-member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.team-member-card:hover .team-member-image {
+  transform: scale(1.1);
+}
+
+.team-member-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(59, 130, 246, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.team-member-card:hover .team-member-overlay {
+  opacity: 1;
+}
+
+.team-social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.team-social-icon {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.team-social-icon:hover {
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.team-member-info {
+  padding: 30px;
+}
+
+.team-member-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.team-member-role {
+  font-size: 16px;
+  color: #3b82f6;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.team-member-description {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Supervisor Section */
+.team-supervisor-section {
+  margin-bottom: 100px;
+}
+
+.team-supervisor-card {
+  background: white;
+  border-radius: 24px;
+  padding: 60px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  margin-top: 50px;
+}
+
+.team-supervisor-image-wrapper {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+}
+
+.team-supervisor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-supervisor-info {
+  flex: 1;
+}
+
+.team-supervisor-name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.team-supervisor-role {
+  font-size: 18px;
+  color: #6366f1;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.team-supervisor-description {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.team-supervisor-contact {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.team-contact-btn {
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+  border: none;
+}
+
+.team-contact-secondary {
+  background: white;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.team-contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
+}
+
+.team-contact-icon {
+  font-size: 18px;
+}
+
+/* Contributions Section */
+.team-contributions-section {
+  margin-bottom: 100px;
+}
+
+.team-contributions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.team-contribution-card {
+  background: white;
+  border-radius: 16px;
+  padding: 35px 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.team-contribution-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(59, 130, 246, 0.15);
+}
+
+.team-contribution-icon {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+.team-contribution-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.team-contribution-text {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Collaboration Section */
+.team-collaboration-section {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-radius: 24px;
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.team-collaboration-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.team-collaboration-text {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.team-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.team-stat-item {
+  text-align: center;
+}
+
+.team-stat-number {
+  font-size: 54px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.team-stat-label {
+  font-size: 16px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .team-supervisor-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  .team-supervisor-contact {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-hero-title {
+    font-size: 42px;
+  }
+
+  .team-hero-subtitle {
+    font-size: 18px;
+  }
+
+  .team-section-title {
+    font-size: 32px;
+  }
+
+  .team-members-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .team-supervisor-image-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+
+  .team-supervisor-name {
+    font-size: 26px;
+  }
+
+  .team-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-content-section {
+    padding: 60px 20px;
+  }
+
+  .team-hero-section {
+    padding: 60px 20px;
+  }
+
+  .team-supervisor-card {
+    padding: 30px 20px;
+  }
+
+  .team-collaboration-section {
+    padding: 40px 30px;
+  }
+
+  .team-stat-number {
+    font-size: 42px;
+  }
+
+  .team-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
