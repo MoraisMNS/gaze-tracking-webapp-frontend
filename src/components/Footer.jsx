@@ -94,7 +94,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="footer-copyright">
-          <p>© 2025 RomeoHR. All Rights Reserved</p>
+          <p>© 2025 Look Track Vision. All Rights Reserved</p>
         </div>
       </div>
 
