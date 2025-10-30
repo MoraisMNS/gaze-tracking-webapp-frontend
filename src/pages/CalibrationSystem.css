@@ -1,0 +1,208 @@
+.calib-page-container {
+  width: 100%;
+  background: #f9fafb;
+  overflow: hidden;
+}
+
+/* HERO SECTION */
+.calib-hero-section {
+  background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 50%, #6366f1 100%);
+  color: white;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.calib-hero-title {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.calib-hero-subtitle {
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ABOUT SECTION */
+.calib-about-section {
+  padding: 80px 40px;
+}
+
+.calib-section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.calib-section-text {
+  font-size: 18px;
+  color: #6b7280;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  line-height: 1.8;
+}
+
+/* FEATURES GRID */
+.calib-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto 80px;
+}
+
+.calib-feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.calib-feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(59, 130, 246, 0.2);
+}
+
+.calib-feature-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.calib-feature-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 12px;
+}
+
+.calib-feature-description {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* VISUALIZATION SECTION */
+.calib-visual-section {
+  background: #f0f9ff;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.calib-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto 0;
+}
+
+.calib-visual-step {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 25px;
+  color: #1f2937;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.1);
+  transition: all 0.3s ease;
+}
+
+.calib-visual-step:hover {
+  background: #3b82f6;
+  color: white;
+  transform: translateY(-6px);
+}
+
+/* HIGHLIGHT SECTION */
+.calib-highlight-section {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 80%);
+  color: white;
+  text-align: center;
+  padding: 100px 40px;
+}
+
+.calib-highlight-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.calib-highlight-content h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.calib-highlight-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* CTA SECTION */
+.calib-cta-section {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  padding: 80px 40px;
+  text-align: center;
+  border-radius: 24px 24px 0 0;
+}
+
+.calib-cta-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.calib-cta-text {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.calib-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.calib-cta-btn {
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.calib-cta-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+}
+
+.calib-cta-secondary {
+  background: white;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.calib-cta-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .calib-hero-title {
+    font-size: 42px;
+  }
+  .calib-section-title {
+    font-size: 32px;
+  }
+}

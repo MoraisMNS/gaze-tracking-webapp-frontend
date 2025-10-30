@@ -16,6 +16,7 @@ import VoiceIntegration from "./pages/VoiceIntegration";
 import CaseStudies from "./pages/CaseStudies";
 import ComputerApplication from "./pages/ComputerApplication";
 import BlinkDetection from "./pages/BlinkDetection";
+import CalibrationSystem from "./pages/CalibrationSystem";
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/gaze-tracking" element={<GazeTracking />} />
           {/*<Route path="/attention-analysis" element={<AttentionAnalysis />} />*/}
           <Route path="/blink-detection" element={<BlinkDetection />} />
+          <Route path="/calibration-system" element={<CalibrationSystem />} />
           <Route path="/realtime-insights" element={<RealTimeInsights />} />
           <Route path="/voice-integration" element={<VoiceIntegration />} />
           <Route path="/case-studies" element={<CaseStudies />} />

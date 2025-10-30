@@ -119,6 +119,12 @@ function Header() {
                 >
                 Blink Detection
                 </Link>
+                <Link
+                to="/calibration-system"
+                className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
+                >
+                Calibration System
+                </Link>
               </div>
 
               {/* Column 2 */}
