@@ -246,7 +246,7 @@ function RealTimeInsights() {
           </div>
 
           {/* Attention Heatmap Section */}
-          <div className="realtime-heatmap-section">
+          {/*<div className="realtime-heatmap-section">
             <h2 className="realtime-section-title">
               User Attention Heatmap
             </h2>
@@ -293,7 +293,7 @@ function RealTimeInsights() {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
 
           {/* CTA Section */}
           <div className="realtime-cta-section">
@@ -305,7 +305,7 @@ function RealTimeInsights() {
             </p>
             <div className="realtime-cta-buttons">
               <button className="realtime-cta-btn realtime-cta-primary">
-                Start Free Trial
+                Download Software
               </button>
               <button className="realtime-cta-btn realtime-cta-secondary">
                 View Documentation
