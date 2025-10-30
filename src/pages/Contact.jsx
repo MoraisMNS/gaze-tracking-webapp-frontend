@@ -39,7 +39,7 @@ const Contact = () => {
           <div className="contact-card">
             <div className="contact-icon">📍</div>
             <h3>Location</h3>
-            <p>Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT)</p>
+            <p>Faculty of Engineering, University Of Ruhuna, Hapugala, Galle, Sri Lanka</p>
           </div>
         </div>
       </section>
@@ -49,23 +49,28 @@ const Contact = () => {
         <h2 className="contact-section-title">Our Project Team</h2>
         <div className="contact-team-grid">
           <div className="team-member">
+            <h3 className="team-name">Supervisor</h3>
+            <p className="team-role">Ms. O.G.Y.N. Gamlath</p>
+          </div>
+
+          <div className="team-member">
             <h3 className="team-name">J. Praveenan</h3>
             <p className="team-role">Project Lead | Developer</p>
           </div>
 
           <div className="team-member">
-            <h3 className="team-name">M. Nirasha</h3>
+            <h3 className="team-name">H. Neethika</h3>
+            <p className="team-role">Project Lead | Developer</p>
+          </div>
+
+          <div className="team-member">
+            <h3 className="team-name">Minhaj MHA</h3>
             <p className="team-role">Research & Development | UI Designer</p>
-          </div>
+          </div>    
 
           <div className="team-member">
-            <h3 className="team-name">M. Mahesha</h3>
-            <p className="team-role">System Integration | Testing</p>
-          </div>
-
-          <div className="team-member">
-            <h3 className="team-name">Supervisor</h3>
-            <p className="team-role">Dr. [Supervisor Name]</p>
+            <h3 className="team-name">Morais MNS</h3>
+            <p className="team-role">Web Developer</p>
           </div>
         </div>
       </section>

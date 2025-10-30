@@ -34,7 +34,7 @@ const Team = () => {
   ];
 
   const supervisor = {
-    name: 'Dr. Supervisor Name',
+    name: 'Ms. O.G.Y.N. Gamlath',
     image: '/images/team/supervisor.jpg', 
     email: 'supervisor@university.edu',
     linkedin: '#'
