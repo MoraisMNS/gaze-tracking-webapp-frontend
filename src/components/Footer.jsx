@@ -25,7 +25,7 @@ const Footer = () => {
             <h3 className="footer-column-title">Company</h3>
             <ul className="footer-links-list">
               <li><a href="#about" className="footer-link">About Us</a></li>
-              <li><a href="#why" className="footer-link">Why RomeoHR</a></li>
+              <li><a href="#why" className="footer-link">Why Look Track Vision</a></li>
               <li><a href="#overview" className="footer-link">Overview</a></li>
               <li><a href="#pricing" className="footer-link">Plans & Pricing</a></li>
             </ul>
