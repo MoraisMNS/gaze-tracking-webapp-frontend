@@ -78,7 +78,7 @@ const VoiceIntegration = () => {
           Speak, see, and control. Explore how real-time voice recognition reshapes human–computer interaction.
         </p>
         <div className="voice-cta-buttons">
-          <button className="voice-cta-btn voice-cta-primary">Launch Demo</button>
+          <button className="voice-cta-btn voice-cta-primary">Watch Demo Video</button>
           <button className="voice-cta-btn voice-cta-secondary">Learn More</button>
         </div>
       </section>
