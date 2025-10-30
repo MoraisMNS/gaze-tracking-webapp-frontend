@@ -4,8 +4,8 @@ import './Documentation.css';
 const Documentation = () => {
   const handleDownload = (reportType) => {
     const pdfPaths = {
-      proposal: '/pdfs/project-proposal.pdf',
-      final: '/pdfs/final-report.pdf'
+      proposal: '/documents/69_Transforming_Human_Computer_Interaction_with_Real_Time_Gaze_Tracking_Technology.pdf',
+      final: '/documents/Group_69_Project_Progress_Report.pdf'
     };
     
     // Create a temporary link and trigger download
@@ -19,8 +19,8 @@ const Documentation = () => {
 
   const handleView = (reportType) => {
     const pdfPaths = {
-      proposal: '/pdfs/project-proposal.pdf',
-      final: '/pdfs/final-report.pdf'
+      proposal: '/documents/69_Transforming_Human_Computer_Interaction_with_Real_Time_Gaze_Tracking_Technology.pdf',
+      final: '/documents/Group_69_Project_Progress_Report.pdf'
     };
     
     // Open PDF in new tab
@@ -73,7 +73,7 @@ const Documentation = () => {
                 </div>
                 <div className="docs-detail-item">
                   <span className="docs-detail-label">Pages:</span>
-                  <span className="docs-detail-value">~40 pages</span>
+                  <span className="docs-detail-value">~35 pages</span>
                 </div>
                 <div className="docs-detail-item">
                   <span className="docs-detail-label">Topics Covered:</span>
@@ -104,11 +104,11 @@ const Documentation = () => {
               <div className="docs-featured-badge">Latest</div>
               <div className="docs-report-header">
                 <div className="docs-report-icon">📘</div>
-                <div className="docs-report-badge">Final Report</div>
+                <div className="docs-report-badge">Progress Report</div>
               </div>
-              <h3 className="docs-report-title">Final Project Report</h3>
+              <h3 className="docs-report-title">Progress Report</h3>
               <p className="docs-report-description">
-                The comprehensive final report documents the complete implementation, testing results,
+                The comprehensive progress report documents the complete implementation, testing results,
                 performance analysis, and conclusions of the intelligent gaze tracking system.
               </p>
               
@@ -119,7 +119,7 @@ const Documentation = () => {
                 </div>
                 <div className="docs-detail-item">
                   <span className="docs-detail-label">Pages:</span>
-                  <span className="docs-detail-value">~80 pages</span>
+                  <span className="docs-detail-value">~55 pages</span>
                 </div>
                 <div className="docs-detail-item">
                   <span className="docs-detail-label">Topics Covered:</span>
@@ -210,7 +210,7 @@ const Documentation = () => {
                 <p className="docs-resource-text">
                   Access the complete source code and contribute to the project.
                 </p>
-                <a href="#" className="docs-resource-link">View on GitHub →</a>
+                <a href="https://github.com/J-Praveenan/gaze-tracking-desktop-application" className="docs-resource-link">View on GitHub →</a>
               </div>
 
               <div className="docs-resource-card">
