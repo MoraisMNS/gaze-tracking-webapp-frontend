@@ -1,7 +1,14 @@
 import React from 'react';
 import './Documentation.css';
+import { useNavigate } from 'react-router-dom';
 
 const Documentation = () => {
+  const navigate = useNavigate();
+
+    const handleContactClickFAQ = () => {
+    navigate('/contact-us');
+  };
+
   const handleDownload = (reportType) => {
     const pdfPaths = {
       proposal: '/documents/69_Transforming_Human_Computer_Interaction_with_Real_Time_Gaze_Tracking_Technology.pdf',
@@ -240,7 +247,8 @@ const Documentation = () => {
               If you have questions about the documentation or would like to discuss the project further,
               feel free to reach out to our team.
             </p>
-            <button className="docs-contact-btn">
+            <button className="docs-contact-btn"
+                    onClick={handleContactClickFAQ}>
               Contact Us
             </button>
           </div>

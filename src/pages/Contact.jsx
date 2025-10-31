@@ -104,7 +104,7 @@ const Contact = () => {
           Reach out to collaborate or learn more about our work.
         </p>
         <div className="contact-cta-buttons">
-          <button className="contact-cta-btn contact-cta-primary">View Our Work</button>
+          <button className="contact-cta-btn contact-cta-primary">View Our Demo Video</button>
           <button className="contact-cta-btn contact-cta-secondary">Email Us</button>
         </div>
       </section>
