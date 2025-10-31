@@ -10,9 +10,8 @@ const Chatbot = () => {
   const [isInitializing, setIsInitializing] = useState(false);
   const messagesEndRef = useRef(null);
   
-  const API_BASE_URL = 'http://localhost:5000/api'; // Update with your API URL
+  const API_BASE_URL = 'http://localhost:5000/api'; 
 
-  // Auto-scroll to bottom when new messages arrive
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -21,7 +20,6 @@ const Chatbot = () => {
     scrollToBottom();
   }, [messages]);
 
-  // Initialize chat session when chatbot opens
   useEffect(() => {
     if (isOpen && !sessionId && !isInitializing) {
       initializeSession();
