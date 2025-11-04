@@ -1,5 +1,5 @@
 import React from 'react';
-import './EyeTrackingShowcase.css';
+import './EyeTrackingShowCase.css';
 import EyeTrackingShowCaseImage from "../assets/eye-tracking-show-case.png";
 
 const EyeTrackingShowcase = () => {
