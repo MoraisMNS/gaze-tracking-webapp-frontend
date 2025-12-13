@@ -30,7 +30,7 @@ const Benefits = () => {
             <div className="benefit-details">
               <h3>Fast</h3>
               <p>
-                Achieve real-time responsiveness with deep learning–powered gaze detection. Our optimized CNN and landmark-based hybrid model ensures rapid interpretation of eye movements, enabling instant control over applications such as media players, presentations, and communication platforms
+                Achieve real-time responsiveness with deep learning–powered gaze detection. Our CNN and landmark-based hybrid model enables accurate interpretation of eye movements, supporting seamless hands-free control across desktop applications and communication platforms.
               </p>
             </div>
           </div>
@@ -45,9 +45,10 @@ const Benefits = () => {
             </div>
             <div className="benefit-details">
               <h3>Accurate</h3>
-              <p>
-               Delivers precise gaze and blink tracking under varying conditions, with personalized calibration ensuring consistent accuracy.
-              </p>
+                <p>
+                Provides reliable gaze and blink tracking across diverse conditions, with calibration ensuring steady precision.
+                </p>
+
             </div>
           </div>
         </div>
