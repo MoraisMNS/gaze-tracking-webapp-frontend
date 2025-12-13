@@ -29,9 +29,7 @@ function Hero() {
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed hero-text">
-            Look Track Vision uses AI-powered eye tracking to decode human
-            attention. Visualize gaze patterns, analyze behavior, and uncover
-            how users truly see the world — in real time.
+Look Track Vision uses AI-powered gaze tracking to enable real-time, hands-free human–computer interaction. By interpreting eye movements, blinks, and head pose through a standard webcam, it translates user intent into seamless computer control.
           </p>
 
           {/* Buttons */}
@@ -47,16 +45,8 @@ function Hero() {
           {/* Stats */}
           <div className="flex gap-8 mt-12 justify-center md:justify-start">
             <div>
-              <div className="text-3xl font-bold text-cyan-400">98.5%</div>
+              <div className="text-3xl font-bold text-cyan-400">95%</div>
               <div className="text-sm text-gray-400">Accuracy</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-cyan-400">156ms</div>
-              <div className="text-sm text-gray-400">Response Time</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-cyan-400">2.8K+</div>
-              <div className="text-sm text-gray-400">Active Users</div>
             </div>
           </div>
         </motion.div>

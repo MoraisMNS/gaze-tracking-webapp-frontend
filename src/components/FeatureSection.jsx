@@ -19,8 +19,8 @@ function FeatureSection() {
         {/* ---------- RIGHT: TEXT ---------- */}
         <div className="feature-text">
           <h2 className="feature-title">
-            Effortlessly analyze human focus with{" "}
-            <span className="highlight">AI-powered eye tracking tools.</span>
+            Enable hands-free computer interaction using{" "}
+            <span className="highlight">AI-powered gaze tracking and blink recognition.</span>
           </h2>
 
           <p className="feature-description">
