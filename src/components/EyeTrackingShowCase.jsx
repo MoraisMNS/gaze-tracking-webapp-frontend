@@ -34,8 +34,8 @@ const EyeTrackingShowcase = () => {
         {/* RIGHT: Text Content */}
         <div className="eyetrack-info">
           <h2 className="eyetrack-main-title">
-            Boost research accuracy by prioritising{' '}
-            <span className="title-highlight">precise gaze tracking!</span>
+           Enable accurate hands-free interaction through{' '}
+            <span className="title-highlight">intelligent gaze tracking!</span>
           </h2>
 
           <p className="eyetrack-subtitle">
@@ -46,15 +46,15 @@ const EyeTrackingShowcase = () => {
 
           <div className="eyetrack-description">
             <p className="description-text">
-              It does not take much to understand user attention patterns. Our Eye Tracking System with AI-powered analytics allows you to gauge and enhance visual engagement in research, help sustain accurate data collection, boost study reliability, and improve overall analytical performance.
+             Advanced gaze-based interaction systems can significantly improve accessibility and user independence by enabling precise, real-time computer control without physical input devices.
             </p>
 
             <p className="description-text">
-              Drive success in your <strong>Research and UX Studies</strong> with specialized eye tracking technology that elevates the precision and insights of behavioral analysis.
+             Drive meaningful accessibility improvements through a multimodal Human–Computer Interaction system designed for hands-free control. By integrating gaze tracking, blink detection, and voice interaction, the system enables intuitive navigation and control for users with limited motor impairments.
             </p>
 
             <p className="description-text">
-              Real-time gaze visualization for exceptional data quality is imperative for research validity while also serving as a foundation for fostering accurate conclusions committed to achieving greater understanding of visual attention.
+              Real-time gaze detection and feedback are essential for stable and intentional interaction. LOOK TRACK VISION ensures reliable performance through calibration, head-pose validation, and continuous gaze monitoring, forming a practical foundation for accurate, accessible, and inclusive computer interaction.
             </p>
           </div>
         </div>
