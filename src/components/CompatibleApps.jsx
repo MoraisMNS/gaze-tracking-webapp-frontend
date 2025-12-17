@@ -6,11 +6,9 @@ const CompatibleApps = () => {
     <div className="apps-main-container">
       <div className="apps-content-wrapper">
         <div className="apps-left-section">
-          <h1 className="apps-main-title">Powerful eye-tracking automation.</h1>
+          <h1 className="apps-main-title">Powerful gaze-based computer interaction.</h1>
           <p className="apps-subtitle">
-            EyeTracker drives precision, insights, and efficiency in gaze analysis,
-            attention monitoring, accessibility, and interaction patterns,
-            ultimately saving time and enhancing user experience accuracy.
+            LOOK TRACK VISION enables accurate and efficient hands-free computer control using real-time gaze direction estimation, blink detection, and voice interaction, improving accessibility and ease of use for users with limited motor abilities.
           </p>
 
           <div className="apps-feature-cards">
@@ -23,7 +21,7 @@ const CompatibleApps = () => {
               </div>
               <div className="apps-feature-content">
                 <h3 className="apps-feature-title">Calibration and setup.</h3>
-                <p className="apps-feature-description">with Quick Integration.</p>
+                <p className="apps-feature-description">with Personalized User Calibration.</p>
               </div>
             </div>
 
@@ -36,7 +34,7 @@ const CompatibleApps = () => {
               </div>
               <div className="apps-feature-content">
                 <h3 className="apps-feature-title">Gaze tracking.</h3>
-                <p className="apps-feature-description">with Real-time Analysis.</p>
+                <p className="apps-feature-description">with Real-time Direction Detection.</p>
               </div>
             </div>
 
@@ -48,8 +46,8 @@ const CompatibleApps = () => {
                 </svg>
               </div>
               <div className="apps-feature-content">
-                <h3 className="apps-feature-title">Attention monitoring.</h3>
-                <p className="apps-feature-description">with Automated Alerts.</p>
+                <h3 className="apps-feature-title">Blink-based control.</h3>
+                <p className="apps-feature-description">with Hands-free Mouse Actions.</p>
               </div>
             </div>
 
@@ -60,8 +58,8 @@ const CompatibleApps = () => {
                 </svg>
               </div>
               <div className="apps-feature-content">
-                <h3 className="apps-feature-title">Data and analytics tools.</h3>
-                <p className="apps-feature-description">with Dynamic Visualization.</p>
+                <h3 className="apps-feature-title">Voice-assisted interaction.</h3>
+                <p className="apps-feature-description">with Hands-free Command and Text Input.</p>
               </div>
             </div>
           </div>
