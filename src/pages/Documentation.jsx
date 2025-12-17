@@ -12,7 +12,8 @@ const Documentation = () => {
   const handleDownload = (reportType) => {
     const pdfPaths = {
       proposal: '/documents/69_Transforming_Human_Computer_Interaction_with_Real_Time_Gaze_Tracking_Technology.pdf',
-      final: '/documents/Group_69_Project_Progress_Report.pdf'
+      final: '/documents/Group_69_Project_Progress_Report.pdf',
+      research: '/documents/Submission_of_ICIPRoB.pdf'
     };
     
     // Create a temporary link and trigger download
@@ -27,7 +28,8 @@ const Documentation = () => {
   const handleView = (reportType) => {
     const pdfPaths = {
       proposal: '/documents/69_Transforming_Human_Computer_Interaction_with_Real_Time_Gaze_Tracking_Technology.pdf',
-      final: '/documents/Group_69_Project_Progress_Report.pdf'
+      final: '/documents/Group_69_Project_Progress_Report.pdf',
+      research: '/documents/Submission_of_ICIPRoB.pdf'
     };
     
     // Open PDF in new tab

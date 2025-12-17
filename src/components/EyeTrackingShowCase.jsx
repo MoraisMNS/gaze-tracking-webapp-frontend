@@ -22,7 +22,7 @@ const EyeTrackingShowcase = () => {
                 </svg>
               </div>
               <div className="indicator-stats">
-                <span className="stats-value">100%</span>
+                <span className="stats-value">95%</span>
                 <div className="stats-bar">
                   <div className="stats-fill"></div>
                 </div>
