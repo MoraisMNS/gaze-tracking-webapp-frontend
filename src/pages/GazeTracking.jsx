@@ -55,15 +55,15 @@ const GazeTracking = () => {
 
             <div className="gazetrack-feature-card">
               <div className="gazetrack-feature-icon">🧠</div>
-              <h3 className="gazetrack-feature-title">Hybrid Prediction</h3>
+              <h3 className="gazetrack-feature-title">Head-Pose Validation</h3>
               <p className="gazetrack-feature-description">
-                Combines CNN predictions with iris landmark offsets for enhanced accuracy and robust gaze classification.
+                Detects head orientation to suppress unintended gaze predictions and ensure stable, intentional interaction.
               </p>
             </div>
 
             <div className="gazetrack-feature-card">
               <div className="gazetrack-feature-icon">🔥</div>
-              <h3 className="gazetrack-feature-title">Attention Heatmap</h3>
+              <h3 className="gazetrack-feature-title">Assistive Interaction Support</h3>
               <p className="gazetrack-feature-description">
                 Visualizes focus intensity across screen regions, indicating user attention patterns in real-time.
               </p>
@@ -116,9 +116,9 @@ const GazeTracking = () => {
 
               <div className="gazetrack-benefit-item">
                 <div className="gazetrack-benefit-number">04</div>
-                <h4 className="gazetrack-benefit-title">Enhanced User Research</h4>
+                <h4 className="gazetrack-benefit-title">Assistive Communication Support</h4>
                 <p className="gazetrack-benefit-text">
-                  Attention heatmaps and gaze analytics support UX evaluation and behavioral research studies.
+                  Enables expressive communication through a gaze-controlled communicator with text-to-speech output.
                 </p>
               </div>
             </div>

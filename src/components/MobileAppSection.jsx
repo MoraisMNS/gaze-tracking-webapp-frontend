@@ -112,10 +112,10 @@ const MobileAppSection = () => {
           {/* Right Section - Content */}
           <div className="mobileapp-text-section">
             <h1 className="mobileapp-main-title">
-              Empower Your Mobile Workforce with Cutting-edge HR Solutions.
+              Empower Hands-Free Interaction on Mobile Devices
             </h1>
             <p className="mobileapp-subtitle">
-              Effortlessly Manage Time Off Requests with Our Mobile HR App - Simplify HR Management Anytime, Anywhere.
+              The LOOK TRACK VISION mobile application provides a lightweight companion interface for testing gaze tracking and blink-based interaction using a smartphone camera. It enables real-time calibration and gaze validation while preserving privacy through on-device processing.
             </p>
 
             <div className="mobileapp-download-buttons">

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Benefits.css';
-import BenefitImage from "../assets/benefits.png";
+import BenefitImage from "../assets/LOOK_TRACK_VISION.png";
 
 const Benefits = () => {
   return (
