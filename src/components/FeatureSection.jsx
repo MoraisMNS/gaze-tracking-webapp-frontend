@@ -19,17 +19,17 @@ function FeatureSection() {
         {/* ---------- RIGHT: TEXT ---------- */}
         <div className="feature-text">
           <h2 className="feature-title">
-            Effortlessly analyze human focus with{" "}
-            <span className="highlight">AI-powered eye tracking tools.</span>
+            Enable hands-free computer interaction using{" "}
+            <span className="highlight">AI-powered gaze tracking and blink recognition</span>
           </h2>
 
           <p className="feature-description">
-            Try our platform to understand user attention in a simple and
-            powerful way. Boost{" "}
-            <strong>decision-making</strong>, improve{" "}
-            <strong>data accuracy</strong>, and visualize{" "}
-            <strong>gaze behavior</strong> across different environments — all
-            in one dashboard.
+              Try our platform to enable hands-free computer interaction in a simple and
+              powerful way. Boost{" "}
+              <strong>accessibility</strong>, improve{" "}
+              <strong>interaction accuracy</strong>, and interpret{" "}
+              <strong>gaze direction</strong> across different environments — all
+              in one system.
           </p>
 
           <hr className="feature-divider" />
