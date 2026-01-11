@@ -6,12 +6,10 @@ const MobileAppSection = () => {
     <div className="mobileapp-main-container">
       <div className="mobileapp-content-wrapper">
         <div className="mobileapp-grid">
-          {/* Left Section - Phone Mockup */}
           <div className="mobileapp-phone-section">
             <div className="mobileapp-phone-mockup">
               <div className="mobileapp-phone-notch"></div>
               <div className="mobileapp-phone-screen">
-                {/* Header */}
                 <div className="mobileapp-screen-header">
                   <div className="mobileapp-dropdown">
                     <span className="mobileapp-dropdown-icon">👥</span>
@@ -21,7 +19,6 @@ const MobileAppSection = () => {
                   <button className="mobileapp-search-btn">🔍</button>
                 </div>
 
-                {/* Employee List */}
                 <div className="mobileapp-employee-list">
                   <div className="mobileapp-section-divider">B</div>
                   
@@ -98,7 +95,6 @@ const MobileAppSection = () => {
                   </div>
                 </div>
 
-                {/* Bottom Navigation */}
                 <div className="mobileapp-bottom-nav">
                   <button className="mobileapp-nav-btn">🏠</button>
                   <button className="mobileapp-nav-btn">📊</button>
@@ -109,7 +105,6 @@ const MobileAppSection = () => {
             </div>
           </div>
 
-          {/* Right Section - Content */}
           <div className="mobileapp-text-section">
             <h1 className="mobileapp-main-title">
               Empower Hands-Free Interaction on Mobile Devices

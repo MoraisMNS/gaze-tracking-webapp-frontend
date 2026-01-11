@@ -12,7 +12,6 @@ const Chatbot = () => {
 
   const API_BASE_URL = 'http://localhost:5000/api';
 
-  // ⬇️ Scroll chat to bottom when messages change
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -21,13 +20,11 @@ const Chatbot = () => {
     scrollToBottom();
   }, [messages]);
 
-  // ⬇️ Load previous chat from localStorage on mount
   useEffect(() => {
     const savedSession = localStorage.getItem("chatSession");
     const savedMessages = localStorage.getItem("chatMessages");
     const lastUsed = localStorage.getItem("chatLastUsed");
 
-    // Optional: Expire chat if older than 24h (86400000 ms)
     if (lastUsed && Date.now() - parseInt(lastUsed) > 86400000) {
       localStorage.removeItem("chatSession");
       localStorage.removeItem("chatMessages");
@@ -45,14 +42,12 @@ const Chatbot = () => {
     }
   }, []);
 
-  // ⬇️ Save chat and session whenever they change
   useEffect(() => {
     if (sessionId) localStorage.setItem("chatSession", sessionId);
     localStorage.setItem("chatMessages", JSON.stringify(messages));
     localStorage.setItem("chatLastUsed", Date.now().toString());
   }, [sessionId, messages]);
 
-  // ⬇️ Initialize a new session if not already active
   useEffect(() => {
     if (isOpen && !sessionId && !isInitializing) {
       initializeSession();
@@ -74,7 +69,6 @@ const Chatbot = () => {
         setSessionId(data.session_id);
         localStorage.setItem("chatSession", data.session_id);
 
-        // Only greet on first session
         if (messages.length === 0) {
           setMessages([
             {
@@ -173,12 +167,10 @@ const Chatbot = () => {
     }
   };
 
-  // ⬇️ Close chat (hide window, keep session)
   const closeChat = () => {
     setIsOpen(false);
   };
 
-  // ⬇️ End chat (clear session + localStorage)
   const endChatSession = async () => {
     if (sessionId) {
       try {
@@ -201,10 +193,8 @@ const Chatbot = () => {
 
   const toggleChat = () => setIsOpen(!isOpen);
 
-  // --------------------- JSX ----------------------
   return (
     <>
-      {/* Floating Button */}
       {!isOpen && (
         <button className="chatbot-toggle-btn" onClick={toggleChat}>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -213,11 +203,8 @@ const Chatbot = () => {
           </svg>
         </button>
       )}
-
-      {/* Chat Window */}
       {isOpen && (
         <div className="chatbot-container">
-          {/* Header */}
           <div className="chatbot-header">
             <div className="chatbot-header-info">
               <div className="chatbot-avatar">
@@ -241,7 +228,6 @@ const Chatbot = () => {
             </div>
           </div>
 
-          {/* Messages */}
           <div className="chatbot-messages">
             {messages.map((message, index) => (
               <div key={index} className={`chatbot-message chatbot-message-${message.role}`}>
@@ -282,7 +268,6 @@ const Chatbot = () => {
             <div ref={messagesEndRef} />
           </div>
 
-          {/* Input */}
           <div className="chatbot-input-area">
             <input
               type="text"
@@ -303,8 +288,6 @@ const Chatbot = () => {
               </svg>
             </button>
           </div>
-
-          {/* Footer */}
           <div className="chatbot-footer">
             <span className="chatbot-footer-text">Powered by AI</span>
           </div>

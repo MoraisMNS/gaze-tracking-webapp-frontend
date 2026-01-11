@@ -8,7 +8,6 @@ const Footer = () => {
     <footer className="footer-main-container">
       <div className="footer-content-wrapper">
         <div className="footer-grid">
-          {/* Logo and Description Section */}
           <div className="footer-about-section">
             <div className="footer-logo">
               <span className="footer-logo-text">Look Track Vision</span>
@@ -22,7 +21,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Company Links */}
           <div className="footer-links-column">
             <h3 className="footer-column-title">Company</h3>
             <ul className="footer-links-list">
@@ -33,7 +31,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Support Links */}
           <div className="footer-links-column">
             <h3 className="footer-column-title">Support</h3>
             <ul className="footer-links-list">
@@ -44,7 +41,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal Links */}
           <div className="footer-links-column">
             <h3 className="footer-column-title">Legal</h3>
             <ul className="footer-links-list">
@@ -54,22 +50,17 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
           <div className="footer-links-column">
             <h3 className="footer-column-title">Social</h3>
             <ul className="footer-links-list">
-              {/* keep your SVG icons here (Facebook, LinkedIn, YouTube, Instagram) */}
             </ul>
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="footer-copyright">
           <p>© 2025 Look Track Vision. All Rights Reserved</p>
         </div>
       </div>
-
-      {/* Floating Chat Button */}
       <button
         className="footer-chat-button"
         aria-label="Chat with us"
@@ -79,8 +70,6 @@ const Footer = () => {
           <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
         </svg>
       </button>
-
-      {/* Chatbot Window */}
       {chatOpen && <Chatbot />} 
     </footer>
   );

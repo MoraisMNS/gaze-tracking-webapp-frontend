@@ -6,8 +6,6 @@ const EyeTrackingShowcase = () => {
   return (
     <section className="eyetrack-showcase">
       <div className="eyetrack-layout">
-        
-        {/* LEFT: Image with Badge */}
         <div className="eyetrack-visual-wrapper">
           <div className="eyetrack-image-box">
             <img
@@ -30,8 +28,6 @@ const EyeTrackingShowcase = () => {
             </div>
           </div>
         </div>
-
-        {/* RIGHT: Text Content */}
         <div className="eyetrack-info">
           <h2 className="eyetrack-main-title">
            Enable accurate hands-free interaction through{' '}

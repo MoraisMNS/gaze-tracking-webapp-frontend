@@ -11,14 +11,12 @@ function Header() {
     <>
       <header className="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-sm z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-          {/* Logo */}
           <div className="flex items-center space-x-2">
             <Link to="/" className="text-2xl font-bold text-[#2563eb] hover:opacity-80 transition-opacity duration-200">
              Look Track Vision
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8 text-gray-800 font-medium">
             <a
               href="#"
@@ -26,8 +24,6 @@ function Header() {
             >
               Overview
             </a>
-
-            {/* Features Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setActiveDropdown("features")}
@@ -43,7 +39,6 @@ function Header() {
               </button>
             </div>
 
-            {/* About Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setActiveDropdown("about")}
@@ -67,7 +62,6 @@ function Header() {
             </a>
           </nav>
 
-          {/* Buttons (Desktop) */}
           <div className="hidden md:flex items-center space-x-4">
             <button className="border border-gray-300 px-5 py-2 rounded-lg hover:bg-gray-50 hover:scale-105 transition-all duration-200">
               Log In
@@ -77,7 +71,6 @@ function Header() {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-gray-700"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -86,7 +79,6 @@ function Header() {
           </button>
         </div>
 
-        {/* Mega Menu - Features */}
         <div
           className={`mega-menu bg-white border-t shadow-lg ${
             activeDropdown === "features" ? "active" : ""
@@ -96,7 +88,6 @@ function Header() {
         >
           <div className="max-w-7xl mx-auto px-6 py-8">
             <div className="grid grid-cols-3 gap-8">
-              {/* Column 1 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Eye Tracking</h3>
@@ -133,7 +124,6 @@ function Header() {
                 </Link>
               </div>
 
-              {/* Column 2 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Analytics</h3>
@@ -146,7 +136,6 @@ function Header() {
                 </Link>
               </div>
 
-              {/* Column 3 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Integration</h3>
@@ -168,7 +157,6 @@ function Header() {
           </div>
         </div>
 
-        {/* Mega Menu - About */}
         <div
           className={`mega-menu bg-white border-t shadow-lg ${
             activeDropdown === "about" ? "active" : ""
@@ -178,7 +166,6 @@ function Header() {
         >
           <div className="max-w-7xl mx-auto px-6 py-8">
             <div className="grid grid-cols-4 gap-6">
-              {/* Column 1 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">About</h3>
@@ -196,7 +183,6 @@ function Header() {
                 Team
                 </Link>
               </div>
-              {/* Column 2 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Why Us</h3>
@@ -220,7 +206,6 @@ function Header() {
                   Testimonials
                 </a>
               </div>
-              {/* Column 3 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Support</h3>
@@ -244,7 +229,6 @@ function Header() {
                   Tutorials
                 </a>
               </div>
-              {/* Column 4 */}
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Contact</h3>
@@ -260,7 +244,6 @@ function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {menuOpen && (
           <div className="md:hidden bg-white border-t shadow-lg">
             <nav className="flex flex-col items-center space-y-4 py-4 text-gray-700">

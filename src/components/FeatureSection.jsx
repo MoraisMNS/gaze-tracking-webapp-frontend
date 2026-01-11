@@ -7,7 +7,6 @@ function FeatureSection() {
     <section className="feature-section">
       <div className="feature-container">
         
-        {/* ---------- LEFT: IMAGE ---------- */}
         <div className="feature-image-wrapper">
           <img
             src={landingImage}
@@ -16,7 +15,6 @@ function FeatureSection() {
           />
         </div>
 
-        {/* ---------- RIGHT: TEXT ---------- */}
         <div className="feature-text">
           <h2 className="feature-title">
             Enable hands-free computer interaction using{" "}
