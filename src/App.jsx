@@ -22,6 +22,7 @@ import Documentation from "./pages/Documentation";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
+import Tutorials from "./pages/Tutorials";
 
 function Home() {
   return (
@@ -49,14 +50,15 @@ function App() {
           <Route path="/blink-detection" element={<BlinkDetection />} />
           <Route path="/calibration-system" element={<CalibrationSystem />} />
           <Route path="/hybrid-prediction" element={<HybridPrediction />} />
-          <Route path="/documentation" element={<Documentation />} />
+          {/*<Route path="/documentation" element={<Documentation />} />*/}
           <Route path="/team" element={<Team />} />
           <Route path="/contact-us" element={<Contact/>} />
           <Route path="/faqs" element={<FAQ/>} />
-          <Route path="/realtime-insights" element={<RealTimeInsights />} />
+          {/*<Route path="/realtime-insights" element={<RealTimeInsights />} />*/}
           <Route path="/voice-integration" element={<VoiceIntegration />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/application-control" element={<ComputerApplication />} />
+           <Route path="/tutorials" element={<Tutorials />} />
         </Routes>
         <Footer/>
       </div>

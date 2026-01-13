@@ -27,7 +27,6 @@ const Footer = () => {
               <li><a href="#about" className="footer-link">About Us</a></li>
               <li><a href="#why" className="footer-link">Why Look Track Vision</a></li>
               <li><a href="#overview" className="footer-link">Overview</a></li>
-              <li><a href="#pricing" className="footer-link">Plans & Pricing</a></li>
             </ul>
           </div>
 
@@ -46,7 +45,6 @@ const Footer = () => {
             <ul className="footer-links-list">
               <li><a href="#terms" className="footer-link">Terms of Use</a></li>
               <li><a href="#privacy" className="footer-link">Privacy Policy</a></li>
-              <li><a href="#sitemap" className="footer-link">Site Map</a></li>
             </ul>
           </div>
 

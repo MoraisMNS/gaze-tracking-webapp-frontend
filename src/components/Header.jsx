@@ -54,20 +54,20 @@ function Header() {
               </button>
             </div>
 
-            <a
+            {/* <a
               href="#"
               className="hover:text-[#6d28d9] transition-colors duration-200"
             >
               Blog
-            </a>
+            </a> */}
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <button className="border border-gray-300 px-5 py-2 rounded-lg hover:bg-gray-50 hover:scale-105 transition-all duration-200">
+            {/* <button className="border border-gray-300 px-5 py-2 rounded-lg hover:bg-gray-50 hover:scale-105 transition-all duration-200">
               Log In
-            </button>
+            </button> */}
             <button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105">
-              Download Software
+              Download
             </button>
           </div>
 
@@ -125,15 +125,15 @@ function Header() {
               </div>
 
               <div className="mega-menu-column">
-                <div className="column-header rounded-lg px-4 py-2 mb-4">
+                {/* <div className="column-header rounded-lg px-4 py-2 mb-4">
                   <h3 className="font-semibold text-gray-800">Analytics</h3>
-                </div>
-                <Link
+                </div> */}
+                {/* <Link
                 to="/realtime-insights"
                 className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
                 Real Time Insights
-                </Link>
+                </Link> */}
               </div>
 
               <div className="mega-menu-column">
@@ -216,18 +216,18 @@ function Header() {
                 >
                 FAQs
                 </Link>
-                <Link
+                {/* <Link
                 to="/documentation"
                 className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
                 Documentation
-                </Link>
-                <a
-                  href="#"
+                </Link> */}
+                <Link
+                  to="/tutorials"
                   className="mega-menu-item block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-50"
                 >
                   Tutorials
-                </a>
+                </Link>
               </div>
               <div className="mega-menu-column">
                 <div className="column-header rounded-lg px-4 py-2 mb-4">
@@ -259,15 +259,15 @@ function Header() {
               <a href="#" className="hover:text-[#6d28d9]">
                 Pricing
               </a>
-              <a href="#" className="hover:text-[#6d28d9]">
+              {/* <a href="#" className="hover:text-[#6d28d9]">
                 Blog
-              </a>
+              </a> */}
 
-              <button className="border border-gray-300 px-5 py-2 rounded-lg hover:bg-gray-50">
+              {/* <button className="border border-gray-300 px-5 py-2 rounded-lg hover:bg-gray-50">
                 Log In
-              </button>
+              </button> */}
               <button className="bg-gradient-to-r from-[#7e22ce] to-[#9333ea] text-white px-5 py-2 rounded-lg hover:opacity-90">
-                Download Software
+                Download
               </button>
             </nav>
           </div>

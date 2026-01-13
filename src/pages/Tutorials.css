@@ -1,0 +1,297 @@
+/* Page Container */
+.tuts-page-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero Section */
+.tuts-hero-section {
+  background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 50%, #6366f1 100%);
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.tuts-hero-title {
+  font-size: 54px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tuts-hero-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content Section */
+.tuts-content-section {
+  padding: 80px 40px;
+}
+
+.tuts-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tuts-section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.tuts-section-text {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+/* Video Cards Grid */
+.tuts-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+/* Video Card */
+.tuts-video-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.tuts-video-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(59, 130, 246, 0.2);
+}
+
+.tuts-video-featured {
+  border: 2px solid #3b82f6;
+}
+
+.tuts-featured-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tuts-video-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.tuts-video-icon {
+  font-size: 48px;
+}
+
+.tuts-video-badge {
+  background: #e0f2fe;
+  color: #0284c7;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.tuts-video-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 14px;
+}
+
+.tuts-video-description {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+/* Video Frame */
+.tuts-video-frame {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #0b1220;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.tuts-video-frame iframe {
+  width: 100%;
+  height: 320px;
+  display: block;
+}
+
+.tuts-video-frame video {
+  width: 100%;
+  height: 320px;
+  display: block;
+}
+
+/* Actions */
+.tuts-video-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.tuts-action-btn {
+  flex: 1;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.tuts-btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+}
+
+.tuts-btn-secondary {
+  background: white;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.tuts-action-btn:hover {
+  transform: translateY(-2px);
+}
+
+.tuts-btn-icon {
+  font-size: 18px;
+}
+
+/* Tips Section */
+.tuts-tips-section {
+  margin-bottom: 30px;
+}
+
+.tuts-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.tuts-tip-item {
+  position: relative;
+  padding-left: 80px;
+}
+
+.tuts-tip-number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.tuts-tip-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.tuts-tip-text {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tuts-hero-title {
+    font-size: 42px;
+  }
+
+  .tuts-hero-subtitle {
+    font-size: 18px;
+  }
+
+  .tuts-section-title {
+    font-size: 32px;
+  }
+
+  .tuts-videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tuts-video-actions {
+    flex-direction: column;
+  }
+
+  .tuts-tip-item {
+    padding-left: 0;
+    padding-top: 70px;
+  }
+
+  .tuts-tip-number {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .tuts-content-section {
+    padding: 60px 20px;
+  }
+
+  .tuts-hero-section {
+    padding: 60px 20px;
+  }
+
+  .tuts-video-card {
+    padding: 30px 24px;
+  }
+
+  .tuts-video-frame iframe,
+  .tuts-video-frame video {
+    height: 240px;
+  }
+}
