@@ -32,7 +32,7 @@ function Home() {
       <Benefits/>
       <EyeTrackingShowcase/>
       <CompatibleApps/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <MobileAppSection/>
     </>
   );

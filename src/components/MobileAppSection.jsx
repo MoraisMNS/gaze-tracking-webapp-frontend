@@ -1,5 +1,6 @@
 import React from 'react';
 import './MobileAppSection.css';
+import phone from "../assets/phone.jpeg"; 
 
 const MobileAppSection = () => {
   return (
@@ -9,7 +10,10 @@ const MobileAppSection = () => {
           <div className="mobileapp-phone-section">
             <div className="mobileapp-phone-mockup">
               <div className="mobileapp-phone-notch"></div>
-              <div className="mobileapp-phone-screen">
+              <img className="mobileapp-phone-image" src={phone} alt="Mobile app preview" />
+
+
+              {/* <div className="mobileapp-phone-screen">
                 <div className="mobileapp-screen-header">
                   <div className="mobileapp-dropdown">
                     <span className="mobileapp-dropdown-icon">👥</span>
@@ -101,7 +105,7 @@ const MobileAppSection = () => {
                   <button className="mobileapp-nav-btn mobileapp-nav-btn-active">👥</button>
                   <button className="mobileapp-nav-btn">☰</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
